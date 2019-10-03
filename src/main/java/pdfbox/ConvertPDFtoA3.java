@@ -178,10 +178,6 @@ public class ConvertPDFtoA3 {
 		pdi.setSubject(pdd.getSubject());
 		pdi.setKeywords(pdd.getKeywords());
 
-		// Set OID
-		// pdi.setCustomMetadataValue("OID", "10.2.3.65.5");
-		// doc.setDocumentInformation(pdi);
-
 		XMPSchemaPDF pdf = xmp.addPDFSchema();
 		pdf.setProducer(pdd.getProducer());
 
